@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "kompass-final",
+  "private_key_id": "57e957edc0cf3fcea8687b0b97ebe90339da6ae7",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCRthZcmdifKu8I\nC+lq97GrdGAlBbjv7l6A/rR4ZfZdJWG+hw3uNrRxj/3eQ7/caaTAmxV5mGYnh8OI\nJfXiYtiMZF1+cCvDmjCDui2n3N2wyspSE1jrpaYcmSK8gg6XJN5/TZc+XUrvLqVH\nGliWkn9N/PgF6QsKvgJay+BpVfVoOHYw9MJon82OSswLNMds1bd2NvxNu7PkasQ2\nB09ZrEuSHC3kURbZu+UT+gsFa3iIGz1GoqTFMzxn3GQMfK6ZVAbdUo3+SHjknhm0\nu6bfzcJhIQGFZOJ5WN/PTPD0hIEwUAN2cTwyNj3DDBKPGNjiE7TAwUrP++Tl0epT\nOt7i4q0lAgMBAAECggEAFBHzpI+gUdQ1FnOllBFIDKi78X2HSq0XoUb0Dr1koNHc\nU8UAezZXxmih/DJyw+ZdRhZWb+g48er2WNN5udQJpdTRN/A1Zvze/9XuIff/JTHZ\nilKV5edsKPZC3ZpAbjsq1ngWhAWPo8BWDaQoXZ0SIejdNNszpSgk5OK+J2QqqE8h\nYoUVGvPHtmTA6emyTI9fW/fJPoH2TYhZsphgOrkmMJQIO/UP48dIu2WL8vIpFe7Y\nPtUJqp5B/4Fw7AeTaO2WfziLpPbySsIE02SzQsnhpDCCbyQGhtaTll0UZcmcZnFj\na7zntjWJCpr1T6LDkT2llzCU7kfZVhCWlvZLLcZaxQKBgQDIY/EIfA8/9s+0fjTX\n1u/J8JH6kJvIKpmv62FuDiMJSTF40lUiwu5fWQ1HzAyrKMCiKY23CeY3njFE5Av8\nf4+7iuDRRneQ5DPDa5yWF3CqSdQXvOGaBBW6OEA8JDCl3DdWZBLZc7SaFYC0JY0D\ntQzElH4PLVxz7a8A490HAWLCVwKBgQC6JacWO5r/tHNtHtWspnDkGNqZmEevnkoj\njOv2Bd/0us0/S0pCDbHNAZ3p67Dfk5gG+TL5tYSHY6z7NpsUm1c9i3lI2wWIsbWW\nFR+rwLPckAzjcNAIbS1MTWGmPacWDykoHpUUA+xR+HhJCnSD+553kK2iRY26QJjB\nO/RQZ/424wKBgA6rsnPKkVs/eIlgTAIZTEjegfF0MNOAuuu0Mdfa1RnS7/pGe9El\nsEnuvRgqiirluuSkYimqYd5kiHrgrzf3JtC2JCtuG0bSTi/aawZaBPeSnCJ4w5OB\nBQ4zHBDLHXynGK4MeYzN+cTmGhwWO7KvyJWDwY7e5UvfdNZ92CqxIUfVAoGACw0/\nPVeunS3miH0DLKv5GeHL4MCkyO1582BjhgjVQh9xHifnMcLEYqqM6J2As9V8ejWD\nbEX1p2AongWg8XlDlbjZK5UtX+9FG7MHXVgklZzL1xkUkNuCi/wwJwGUEQA3blVa\nfoS5HCjHY3bGciuXPfwOAwtkHcHGD/ryR2/VLQcCgYBthmhZRAuNnw8b5aHeJJzs\npCPXndu6O68sxO4LHqHbeVXWDrgDJhyzTPvUVEQoixfCLU3MEJ+kI8vlDvxp1/np\nqqjT2RTotXWE/VxNezKfdtY8gT9ZOElPVV1YJpA6eDXFcD0tRomv0Xi0C3nVEvpq\nTKYhfuZYNOQufTiodBog8Q==\n-----END PRIVATE KEY-----\n",
+  "client_email": "kompass-scraper@kompass-final.iam.gserviceaccount.com",
+  "client_id": "107013513821182267601",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/kompass-scraper%40kompass-final.iam.gserviceaccount.com"
+}

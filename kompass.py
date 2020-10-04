@@ -31,7 +31,7 @@ class KompassSpider(scrapy.Spider):
     for link in links:
       yield scrapy.Request(url=link, callback=self.parse_list)
     next_page = str(urlvalue) + 'page-' + str(KompassSpider.page_number) + '/'
-    if KompassSpider.page_number <= 40:
+    if KompassSpider.page_number <= 20:
       KompassSpider.page_number += 1
       yield Request(url = next_page, callback = self.parse)
 

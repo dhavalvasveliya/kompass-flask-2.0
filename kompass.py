@@ -4,6 +4,7 @@ from scrapy import Request
 import gspread
 from scrapy.crawler import CrawlerProcess
 from scrapy.utils.project import get_project_settings
+import re
 
 
 
@@ -15,10 +16,9 @@ gc = gspread.service_account(filename='creds.json')
 sh = gc.open('kompass-final').get_worksheet(0)
 sh.clear()
 sh2 = gc.open('kompass-final').get_worksheet(1)
-header = ['Company','Company-Activity','Address','Code','URL','Year of Creation','SIREN','Workforce at Address','Managers']
+header = ['Company','Company-Activity','Address','Code','URL','Year of Creation','SIREN','Workforce at Address','Managers','Societe_URL']
 sh.append_row(header,1)
 urlvalue = sh2.acell('A2').value
-
 
 
 class KompassSpider(scrapy.Spider):
@@ -31,7 +31,7 @@ class KompassSpider(scrapy.Spider):
     for link in links:
       yield scrapy.Request(url=link, callback=self.parse_list)
     next_page = str(urlvalue) + 'page-' + str(KompassSpider.page_number) + '/'
-    if KompassSpider.page_number <= 20:
+    if KompassSpider.page_number <= 40:
       KompassSpider.page_number += 1
       yield Request(url = next_page, callback = self.parse)
 
@@ -96,9 +96,8 @@ class KompassSpider(scrapy.Spider):
       'Societe_URL' : societe_url,
     }
     sh.append_row([company,company_activity,address,code,company_url,year,siren,workforce,managers,societe_url],2)
-
-
-
+    
+    
 
 if __name__ == '__main__':
   process = CrawlerProcess(s)
